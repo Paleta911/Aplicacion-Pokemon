@@ -1,0 +1,68 @@
+<ion-header>
+  <ion-toolbar color="danger">
+    <ion-title>
+      Registro Pokémon
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="contenido-pokemon">
+  <h2><strong>¡Únete a la aventura Pokémon!</strong></h2>
+
+  <form #frmContacto="ngForm" class="form-registro">
+    <ion-list lines="full" class="ion-no-margin ion-no-padding">
+
+      <ion-item>
+        <ion-label position="floating">Nombre Entrenador *</ion-label>
+        <ion-input 
+          type="name"
+          required
+          name="txtname"
+          [(ngModel)]="nombre"
+          #nombreInput="ngModel"
+          (input)="validarFormulario()">
+        </ion-input>
+      </ion-item>
+      <ion-note *ngIf="mensajeErrorNombre" color="danger">
+        {{ mensajeErrorNombre }}
+      </ion-note>
+
+      <ion-item>
+        <ion-label position="floating">Correo Electrónico *</ion-label>
+        <ion-input 
+          type="email"
+          required
+          name="txtemail"
+          [(ngModel)]="email"
+          #emailInput="ngModel"
+          (input)="validarFormulario()">
+        </ion-input>
+      </ion-item>
+      <ion-note *ngIf="mensajeErrorCorreo" color="danger">
+        {{ mensajeErrorCorreo }}
+      </ion-note>
+
+      <ion-item>
+        <ion-label position="floating">Contraseña *</ion-label>
+        <ion-input 
+          type="password"
+          required
+          name="txtpassword"
+          [(ngModel)]="contrasena"
+          #passwordInput="ngModel"
+          (input)="validarFormulario()">
+        </ion-input>
+      </ion-item>
+      <ion-note *ngIf="mensajeErrorContrasena" color="danger">
+        {{ mensajeErrorContrasena }}
+      </ion-note>
+
+    </ion-list>
+    
+    <ion-button expand="block" [disabled]="!formularioValido" routerLink="/login" class="btn-registro">
+      Registrarme
+    </ion-button>
+
+    <p class="texto-login">¿Ya tienes una cuenta? <a href="/login">Accede aquí</a></p>
+  </form>
+</ion-content>

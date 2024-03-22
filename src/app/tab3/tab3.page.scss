@@ -1,0 +1,49 @@
+.pokeapi-search {
+  ion-toolbar {
+    --background: rgba(255, 0, 0, 0.8);
+  }
+
+  ion-searchbar {
+    --background: rgba(255, 255, 255, 0.5);
+    --placeholder-color: #666;
+    --icon-color: #d32f2f;
+  }
+
+  ion-list {
+    ion-item {
+      --background: #ffffff;
+      --border-radius: 8px;
+      --margin-bottom: 10px;
+      --padding-start: 15px;
+      --padding-end: 15px;
+      box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+
+      ion-label {
+        color: #333;
+      }
+
+      ion-icon {
+        margin: 0 5px;
+      }
+
+      ion-card {
+        margin-top: 10px;
+        border-radius: 8px;
+
+        ion-card-header {
+          background: #ececec;
+        }
+
+        ion-card-content {
+          background: #f9f9f9;
+          img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,542 @@
+[
+  {
+    "id": 0,
+    "name": "Pidgey",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/016.png",
+    "type": ["Normal", "Volador"],
+    "abilities": ["Vista Lince", "Tumbos"],
+    "weight": "1.8 kg",
+    "height": "0.3 m",
+    "species": "Pokémon Pajarito"
+  },
+  {
+    "id": 1,
+    "name": "Rattata",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/019.png",
+    "type": ["Normal"],
+    "abilities": ["Fuga", "Agallas"],
+    "weight": "3.5 kg",
+    "height": "0.3 m",
+    "species": "Pokémon Ratón"
+  },
+  {
+    "id": 2,
+    "name": "Meowth",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/052.png",
+    "type": ["Normal"],
+    "abilities": ["Recogida", "Técnico"],
+    "weight": "4.2 kg",
+    "height": "0.4 m",
+    "species": "Pokémon Gato Arañazo"
+  },
+  {
+    "id": 3,
+    "name": "Charmander",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/004.png",
+    "type": ["Fuego"],
+    "abilities": ["Mar Llamas"],
+    "weight": "8.5 kg",
+    "height": "0.6 m",
+    "species": "Pokémon Lagartija"
+  },
+  {
+    "id": 4,
+    "name": "Vulpix",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/037.png",
+    "type": ["Fuego"],
+    "abilities": ["Absorbe Fuego"],
+    "weight": "9.9 kg",
+    "height": "0.6 m",
+    "species": "Pokémon Zorro"
+  },
+  {
+    "id": 5,
+    "name": "Growlithe",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/058.png",
+    "type": ["Fuego"],
+    "abilities": ["Intimidación", "Absorbe Fuego"],
+    "weight": "19.0 kg",
+    "height": "0.7 m",
+    "species": "Pokémon Cachorro"
+  },
+  {
+    "id": 6,
+    "name": "Squirtle",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/007.png",
+    "type": ["Agua"],
+    "abilities": ["Torrente"],
+    "weight": "9.0 kg",
+    "height": "0.5 m",
+    "species": "Pokémon Tortuguita"
+  },
+  {
+    "id": 7,
+    "name": "Psyduck",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/054.png",
+    "type": ["Agua"],
+    "abilities": ["Humedad", "Cabeza de Roca"],
+    "weight": "19.6 kg",
+    "height": "0.8 m",
+    "species": "Pokémon Pato"
+  },
+  {
+    "id": 8,
+    "name": "Poliwag",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/060.png",
+    "type": ["Agua"],
+    "abilities": ["Absorbe Agua", "Humedad"],
+    "weight": "12.4 kg",
+    "height": "0.6 m",
+    "species": "Pokémon Renacuajo"
+  },
+  {
+    "id": 9,
+    "name": "Pikachu",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/025.png",
+    "type": ["Electrico"],
+    "abilities": ["Electricidad estatica"],
+    "weight": "6.0 kg",
+    "height": "0.4 m",
+    "species": "Pokémon Ratón"
+  },
+  {
+    "id": 10,
+    "name": "Magnemite",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/081.png",
+    "type": ["Electrico", "Acero"],
+    "abilities": ["Iman"],
+    "weight": "6.0 kg",
+    "height": "0.3 m",
+    "species": "Pokémon Imán"
+  },
+  {
+    "id": 11,
+    "name": "Voltorb",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/100.png",
+    "type": ["Electrico"],
+    "abilities": ["Electrodo", "Insonorizar"],
+    "weight": "10.4 kg",
+    "height": "0.5 m",
+    "species": "Pokémon Bola"
+  },
+  {
+    "id": 12,
+    "name": "Bulbasaur",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/001.png",
+    "type": ["Planta", "Veneno"],
+    "abilities": ["Espesura"],
+    "weight": "6.9 kg",
+    "height": "0.7 m",
+    "species": "Pokémon Semilla"
+  },
+  {
+    "id": 13,
+    "name": "Ivysaur",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/002.png",
+    "type": ["Planta", "Veneno"],
+    "abilities": ["Espesura"],
+    "weight": "13.0 kg",
+    "height": "1.0 m",
+    "species": "Pokémon Semilla"
+  },
+  {
+    "id": 14,
+    "name": "Venusaur",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/003.png",
+    "type": ["Planta", "Veneno"],
+    "abilities": ["Espesura"],
+    "weight": "100.0 kg",
+    "height": "2.0 m",
+    "species": "Pokémon Semilla"
+  },
+  {
+    "id": 15,
+    "name": "Jynx",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/124.png",
+    "type": ["Hielo", "Psiquico"],
+    "abilities": ["Oblivious", "Forewarn"],
+    "weight": "40.6 kg",
+    "height": "1.4 m",
+    "species": "Pokémon Humanoide"
+  },
+  {
+    "id": 16,
+    "name": "Lapras",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/131.png",
+    "type": ["Agua", "Hielo"],
+    "abilities": ["Absorbe Agua", "Shell Armor"],
+    "weight": "220.0 kg",
+    "height": "2.5 m",
+    "species": "Pokémon Transporte"
+  },
+  {
+    "id": 17,
+    "name": "Articuno",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/144.png",
+    "type": ["Hielo", "Volador"],
+    "abilities": ["Presión", "Nieve Polvo"],
+    "weight": "55.4 kg",
+    "height": "1.7 m",
+    "species": "Pokémon Congelado"
+  },
+  {
+    "id": 18,
+    "name": "Machop",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/066.png",
+    "type": ["Lucha"],
+    "abilities": ["Espíritu Vital", "Indefenso"],
+    "weight": "19.5 kg",
+    "height": "0.8 m",
+    "species": "Pokémon Superpoder"
+  },
+  {
+    "id": 19,
+    "name": "Mankey",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/056.png",
+    "type": ["Lucha"],
+    "abilities": ["Espíritu Vital", "Ira"],
+    "weight": "28.0 kg",
+    "height": "0.5 m",
+    "species": "Pokémon Cerdo Mono"
+  },
+  {
+    "id": 20,
+    "name": "Primeape",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/057.png",
+    "type": ["Lucha"],
+    "abilities": ["Espíritu Vital", "Ira"],
+    "weight": "32.0 kg",
+    "height": "1.0 m",
+    "species": "Pokémon Cerdo Mono"
+  },
+  {
+    "id": 21,
+    "name": "Ekans",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/023.png",
+    "type": ["Veneno"],
+    "abilities": ["Intimidación", "Mudar"],
+    "weight": "6.9 kg",
+    "height": "2.0 m",
+    "species": "Pokémon Serpiente"
+  },
+  {
+    "id": 22,
+    "name": "Arbok",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/024.png",
+    "type": ["Veneno"],
+    "abilities": ["Intimidación", "Mudar"],
+    "weight": "65.0 kg",
+    "height": "3.5 m",
+    "species": "Pokémon Cobra"
+  },
+  {
+    "id": 23,
+    "name": "Koffing",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/109.png",
+    "type": ["Veneno"],
+    "abilities": ["Levitación"],
+    "weight": "1.0 kg",
+    "height": "0.6 m",
+    "species": "Pokémon Gas Venenoso"
+  },
+  {
+    "id": 24,
+    "name": "Sandshrew",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/027.png",
+    "type": ["Tierra"],
+    "abilities": ["Velo Arena", "Cabeza Roca"],
+    "weight": "12.0 kg",
+    "height": "0.6 m",
+    "species": "Pokémon Ratón"
+  },
+  {
+    "id": 25,
+    "name": "Diglett",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/050.png",
+    "type": ["Tierra"],
+    "abilities": ["Arena Trampa", "Velo Arena"],
+    "weight": "0.8 kg",
+    "height": "0.2 m",
+    "species": "Pokémon Topo"
+  },
+  {
+    "id": 26,
+    "name": "Geodude",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/074.png",
+    "type": ["Roca", "Tierra"],
+    "abilities": ["Cabeza Roca", "Robustez"],
+    "weight": "20.0 kg",
+    "height": "0.4 m",
+    "species": "Pokémon Roca"
+  },
+  {
+    "id": 27,
+    "name": "Pidgeotto",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/017.png",
+    "type": ["Normal", "Volador"],
+    "abilities": ["Vista Lince", "Pies Ligeros"],
+    "weight": "30.0 kg",
+    "height": "1.1 m",
+    "species": "Pokémon Pájaro"
+  },
+  {
+    "id": 28,
+    "name": "Spearow",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/021.png",
+    "type": ["Normal", "Volador"],
+    "abilities": ["Vista Lince"],
+    "weight": "2.0 kg",
+    "height": "0.3 m",
+    "species": "Pokémon Pájaro Pequeño"
+  },
+  {
+    "id": 29,
+    "name": "Fearow",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/022.png",
+    "type": ["Normal", "Volador"],
+    "abilities": ["Vista Lince"],
+    "weight": "38.0 kg",
+    "height": "1.2 m",
+    "species": "Pokémon Pico"
+  },
+  {
+    "id": 30,
+    "name": "Abra",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/063.png",
+    "type": ["Psiquico"],
+    "abilities": ["Sincronía", "Foco Interno"],
+    "weight": "19.5 kg",
+    "height": "0.9 m",
+    "species": "Pokémon Psi"
+  },
+  {
+    "id": 31,
+    "name": "Kadabra",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/064.png",
+    "type": ["Psiquico"],
+    "abilities": ["Sincronía", "Foco Interno"],
+    "weight": "56.5 kg",
+    "height": "1.3 m",
+    "species": "Pokémon Psi"
+  },
+  {
+    "id": 32,
+    "name": "Alakazam",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/065.png",
+    "type": ["Psiquico"],
+    "abilities": ["Sincronía", "Foco Interno"],
+    "weight": "48.0 kg",
+    "height": "1.5 m",
+    "species": "Pokémon Psi"
+  },
+  {
+    "id": 33,
+    "name": "Caterpie",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/010.png",
+    "type": ["Bicho"],
+    "abilities": ["Polvo Escudo"],
+    "weight": "2.9 kg",
+    "height": "0.3 m",
+    "species": "Pokémon Gusano"
+  },
+  {
+    "id": 34,
+    "name": "Weedle",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/013.png",
+    "type": ["Bicho", "Veneno"],
+    "abilities": ["Polvo Escudo"],
+    "weight": "3.2 kg",
+    "height": "0.3 m",
+    "species": "Pokémon Oruga"
+  },
+  {
+    "id": 35,
+    "name": "Pinsir",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/127.png",
+    "type": ["Bicho"],
+    "abilities": ["Corte Fuerte", "Mold Breaker"],
+    "weight": "55.0 kg",
+    "height": "1.5 m",
+    "species": "Pokémon Escarabajo"
+  },
+  {
+    "id": 36,
+    "name": "Geodude",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/074.png",
+    "type": ["Roca", "Tierra"],
+    "abilities": ["Cabeza Roca", "Robustez"],
+    "weight": "20.0 kg",
+    "height": "0.4 m",
+    "species": "Pokémon Roca"
+  },
+  {
+    "id": 37,
+    "name": "Onix",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/095.png",
+    "type": ["Roca", "Tierra"],
+    "abilities": ["Cabeza Roca", "Robustez"],
+    "weight": "210.0 kg",
+    "height": "8.8 m",
+    "species": "Pokémon Serpiente Roca"
+  },
+  {
+    "id": 38,
+    "name": "Rhyhorn",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/111.png",
+    "type": ["Tierra", "Roca"],
+    "abilities": ["Cabeza Roca", "Pararrayos"],
+    "weight": "115.0 kg",
+    "height": "1.0 m",
+    "species": "Pokémon Clavos"
+  },
+  {
+    "id": 39,
+    "name": "Gastly",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/092.png",
+    "type": ["Fantasma", "Veneno"],
+    "abilities": ["Levitación"],
+    "weight": "0.1 kg",
+    "height": "1.3 m",
+    "species": "Pokémon Gas"
+  },
+  {
+    "id": 40,
+    "name": "Haunter",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/093.png",
+    "type": ["Fantasma", "Veneno"],
+    "abilities": ["Levitación","Trakaa"],
+    "weight": "0.1 kg",
+    "height": "1.6 m",
+    "species": "Pokémon Gas"
+  },
+  {
+    "id": 41,
+    "name": "Gengar",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/094.png",
+    "type": ["Fantasma", "Veneno"],
+    "abilities": ["Maldición"],
+    "weight": "40.5 kg",
+    "height": "1.5 m",
+    "species": "Pokémon Sombra"
+  },
+  {
+    "id": 42,
+    "name": "Dratini",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/147.png",
+    "type": ["Dragon"],
+    "abilities": ["Mudar", "Piel Feérica"],
+    "weight": "3.3 kg",
+    "height": "1.8 m",
+    "species": "Pokémon Dragón"
+  },
+  {
+    "id": 43,
+    "name": "Dragonair",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/148.png",
+    "type": ["Dragon"],
+    "abilities": ["Mudar", "Piel Feérica"],
+    "weight": "16.5 kg",
+    "height": "4.0 m",
+    "species": "Pokémon Dragón"
+  },
+  {
+    "id": 44,
+    "name": "Dragonite",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/149.png",
+    "type": ["Dragon", "Volador"],
+    "abilities": ["Foco Interno", "Multiescala"],
+    "weight": "210.0 kg",
+    "height": "2.2 m",
+    "species": "Pokémon Dragón"
+  },
+  {
+    "id": 45,
+    "name": "Murkrow",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/198.png",
+    "type": ["Siniestro", "Volador"],
+    "abilities": ["Insomnio", "Superluck"],
+    "weight": "2.1 kg",
+    "height": "0.5 m",
+    "species": "Pokémon Oscuridad"
+  },
+  {
+    "id": 46,
+    "name": "Sneasel",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/215.png",
+    "type": ["Siniestro", "Hielo"],
+    "abilities": ["Agudeza", "Experto"],
+    "weight": "28.0 kg",
+    "height": "0.9 m",
+    "species": "Pokémon Garra Filo"
+  },
+  {
+    "id": 47,
+    "name": "Houndour",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/228.png",
+    "type": ["Siniestro", "Fuego"],
+    "abilities": ["Alerta", "Flash Fire"],
+    "weight": "10.8 kg",
+    "height": "0.6 m",
+    "species": "Pokémon Oscuro"
+  },
+  {
+    "id": 48,
+    "name": "Magnemite",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/081.png",
+    "type": ["Electrico", "Acero"],
+    "abilities": ["Iman", "Robustez"],
+    "weight": "6.0 kg",
+    "height": "0.3 m",
+    "species": "Pokémon Imán"
+  },
+  {
+    "id": 49,
+    "name": "Skarmory",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/227.png",
+    "type": ["Acero", "Volador"],
+    "abilities": ["Robustez", "Armadura Impenetrable"],
+    "weight": "50.5 kg",
+    "height": "1.7 m",
+    "species": "Pokémon Coraza Pájaro"
+  },
+  {
+    "id": 50,
+    "name": "Steelix",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/208.png",
+    "type": ["Acero", "Tierra"],
+    "abilities": ["Robustez", "Iman"],
+    "weight": "400.0 kg",
+    "height": "9.2 m",
+    "species": "Pokémon Serpiente Hierro"
+  },
+  {
+    "id": 51,
+    "name": "Clefairy",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/035.png",
+    "type": ["Hada"],
+    "abilities": ["Gran Encanto", "Muro Mágico"],
+    "weight": "7.5 kg",
+    "height": "0.6 m",
+    "species": "Pokémon Hada"
+  },
+  {
+    "id": 52,
+    "name": "Jigglypuff",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/039.png",
+    "type": ["Normal", "Hada"],
+    "abilities": ["Gran Encanto", "Competitivo"],
+    "weight": "5.5 kg",
+    "height": "0.5 m",
+    "species": "Pokémon Globo"
+  },
+  {
+    "id": 53,
+    "name": "Wigglytuff",
+    "image": "https://assets.pokemon.com/assets/cms2/img/pokedex/full/040.png",
+    "type": ["Normal", "Hada"],
+    "abilities": ["Gran Encanto", "Competitivo"],
+    "weight": "12.0 kg",
+    "height": "1.0 m",
+    "species": "Pokémon Globo"
+  }
+]

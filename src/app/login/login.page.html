@@ -1,0 +1,48 @@
+<ion-header>
+  <ion-toolbar color="danger">
+    <ion-title>
+      Login Pokémon
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="login-pokemon">
+  <h2 class="welcome-message"><strong>¡Bienvenido de nuevo, entrenador!</strong></h2>
+
+  <form #frmContacto="ngForm" class="form-login">
+
+    <ion-item>
+      <ion-label position="floating">Correo *</ion-label>
+      <ion-input 
+        type="email"
+        required
+        name="txtemail"
+        [(ngModel)]="email"
+        #emailInput="ngModel"
+        (input)="validarFormulario()">
+      </ion-input>
+    </ion-item>
+    <ion-note *ngIf="mensajeErrorCorreo" color="danger">
+      {{ mensajeErrorCorreo }}
+    </ion-note>
+
+    <ion-item>
+      <ion-label position="floating">Contraseña *</ion-label>
+      <ion-input 
+        type="password"
+        required
+        name="txtpassword"
+        [(ngModel)]="contrasena"
+        #passwordInput="ngModel"
+        (input)="validarFormulario()">
+      </ion-input>
+      <ion-note *ngIf="mensajeErrorContrasena" color="danger">
+        {{ mensajeErrorContrasena }}
+      </ion-note>    
+    </ion-item>
+
+    <ion-button expand="block" [disabled]="!formularioValido" (click)="acceder()">Acceder</ion-button>
+
+    <p class="account-query">¿Aun no tienes una cuenta? <a href="/home">Créala aquí</a></p>
+  </form>
+</ion-content>

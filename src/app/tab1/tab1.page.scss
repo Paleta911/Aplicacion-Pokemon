@@ -1,0 +1,55 @@
+.pokemon-trainer-tab {
+  --ion-background-color: #f2f2f2;
+
+  ion-toolbar {
+    --background: rgba(255, 0, 0, 0.8);
+  }
+
+  .favorite-pokemons-container {
+    padding: 15px;
+
+    h2 {
+      color: #d32f2f;
+      font-size: 1.2rem;
+      margin-bottom: 10px;
+    }
+
+    ion-list {
+      ion-item {
+        --background: #ffffff;
+        --border-radius: 8px;
+        --margin-bottom: 10px;
+        --padding-start: 15px;
+        --padding-end: 15px;
+        --inner-padding-end: 15px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
+
+        ion-label {
+          color: #333;
+        }
+
+        ion-icon {
+          margin: 0 5px;
+        }
+
+        ion-card {
+          margin-top: 10px;
+
+          ion-card-header {
+            background: #ececec;
+          }
+
+          ion-card-content {
+            background: #f9f9f9;
+            img {
+              max-width: 100%;
+              height: auto;
+              display: block;
+              margin: 0 auto;
+            }
+          }
+        }
+      }
+    }
+  }
+}

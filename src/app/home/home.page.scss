@@ -1,0 +1,70 @@
+.contenido-pokemon {
+  --background: no-repeat center/cover url('https://wallpaperaccess.com/full/24934.jpg');
+  position: relative;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.75);
+    z-index: -1;
+  }
+
+  > * {
+    position: relative;
+    z-index: 2;
+  }
+
+
+  h2 {
+    color: #fff !important; // Esto hará que el texto sea blanco
+    strong {
+      color: inherit; // Esto asegura que el texto dentro de <strong> herede el color blanco
+    }
+  }
+  
+  .form-registro {
+    background: rgba(255, 255, 255, 0.85); // Fondo ligeramente transparente
+    padding: 20px;
+    border-radius: 20px; // Bordes redondeados para un look suave
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); // Sombra sutil para resaltar el formulario
+    max-width: 500px; // Un ancho máximo para evitar que el formulario sea demasiado ancho en pantallas grandes
+    width: 100%; // Asegura que el formulario ocupe todo el espacio asignado
+    box-sizing: border-box; // Asegura que el padding no afecte el ancho final
+
+    ion-item {
+      --background: transparent; // Elementos del formulario transparentes
+      --border-color: rgba(0, 0, 0, 0.2); // Bordes sutiles para los elementos del formulario
+      --border-radius: 8px;
+      --padding-start: 8px;
+      --padding-end: 8px;
+      --inner-padding-end: 8px;
+      margin-bottom: 20px;
+    }
+
+    .btn-registro {
+      --background: #d32f2f;
+      --background-activated: #b71c1c;
+      --background-focused: #b71c1c;
+      --background-hover: #b71c1c;
+      --border-radius: 8px;
+      margin-top: 20px;
+    }
+
+    .texto-login {
+      text-align: center;
+      margin-top: 20px;
+      a {
+        color: #d32f2f;
+      }
+    }
+  }
+}
