@@ -18,4 +18,4 @@ Aplicación móvil desarrollada con **Ionic** que consume la [PokeAPI](https://p
 ## 📦 Instalación y uso  
 1. Clonar el repositorio:  
    ```bash
-   git clone https://github.com/tuusuario/pokedex-ionic.git
+   https://github.com/Paleta911/Aplicacion-Pokemon.git
